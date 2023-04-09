@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="col-3 card" *ngFor="let artista of autore">
+    <img src="{{artista.foto}}" alt=""> <!-- Foto canzone -->
+    <h3>{{artista.nome}}</h3><!-- Nome autore -->
+    <h4>{{artista.titolo}}</h4><!-- Titolo canzone -->
+    <iframe style="border-radius:12px" src="{{artista.frameSrc}}" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+</div>

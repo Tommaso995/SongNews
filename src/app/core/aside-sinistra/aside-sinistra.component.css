@@ -1,0 +1,14 @@
+#iframe1{
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+
+.titleSpot{
+  text-align: center;
+  color: white;
+  background-color: rgb(43, 39, 39);
+  border-radius: 20px;
+  margin-bottom: 2px;
+  padding: 2px;
+  font-size: large;
+}

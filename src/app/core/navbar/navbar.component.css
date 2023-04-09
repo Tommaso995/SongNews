@@ -1,0 +1,13 @@
+nav{
+  padding: 15px;
+}
+.nav-link,.navbar-brand{
+  color: white;
+}
+#navbarSupportedContent{
+  justify-content:end;
+}
+nav{
+  background-color: #023E8A;
+  color: white;
+}

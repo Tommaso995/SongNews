@@ -1,0 +1,49 @@
+
+.container-fluid{
+  background-image: url(../../../assets/img/sfondo3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#centro>img{
+  margin: 8px;
+  width: 100%;
+}
+
+#centro{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: auto;
+  color: black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #B1C7EE;
+  border-radius: 9px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+@media screen and (max-width: 1128px) {
+
+  .hide{
+    display: none;
+  }
+
+}
+@media screen and (max-width: 768px) {
+
+  .hide{
+    display: none;
+  }
+
+}
+@media screen and (max-width: 320px) {
+
+  .hide{
+    display: none;
+  }
+
+}
