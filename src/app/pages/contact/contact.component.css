@@ -4,7 +4,12 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+#avviso{
+  color: red;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 #centro>img{
   margin: 8px;
 }

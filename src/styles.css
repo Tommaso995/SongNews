@@ -5,3 +5,27 @@
   box-sizing: border-box;
   font-family: 'Bona Nova', serif;
 }
+/* Style Scroll bar laterale */
+/* Stile della scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track della scrollbar */
+::-webkit-scrollbar-track {
+  background-color: rgb(153, 185, 220);
+  border: 4px solid transparent;
+  border-radius: 8px;
+}
+
+/* Thumb della scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(48, 107, 169);
+  border: 4px solid transparent;
+  border-radius: 8px;
+}
+
+/* Cursor che si posiziona sopra la scrollbar */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(16, 71, 129);
+}

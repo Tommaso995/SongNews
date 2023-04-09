@@ -7,10 +7,13 @@
     <div class="col-1 hide"></div>
     <div class="col-12 col-xs-12 col-sm-4" id="centro">
       <h3>Compila il seguente form per contattarci</h3>
-      <input type="text" name="" id="" placeholder="Titolo" class="form-control">
-      <input type="text" name="" id="" placeholder="E-Mail" class="form-control">
-      <textarea name="" id="" cols="5" rows="5" class="form-control"></textarea>
-      <input type="submit" value="Invia" class="form-control">
+      <form [formGroup]="formContact" (ngSubmit)="invio()">
+        <input type="text" name="" id="" placeholder="Titolo" class="form-control" [(ngModel)]="tit">
+        <input type="email" name="" id="" placeholder="E-Mail" class="form-control" [(ngModel)]="email">
+        <textarea name="" id="" cols="5" rows="5" class="form-control" [(ngModel)]="mess" placeholder="Scrivi il tuo messaggio"></textarea>
+        <p id="avviso" *ngIf="!formContact.valid">*Compilare correttamente tutti i campi</p>
+        <button [disabled]="!formContact.valid" type="submit" value="Invia" class="form-control">Invia</button>
+      </form>
     </div>
     <div class="col-1 hide"></div>
     <div class="col-2 hide" id="iframe1">
